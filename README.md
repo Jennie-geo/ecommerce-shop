@@ -2,6 +2,10 @@
 
 This is a simple e-commerce system that allows unauthenticated users to view approved products, authenticated users to manage their products, and an admin to manage users and products. This project was done using Nestjs framework, postgres database, swagger for Api documentation, Typeorm.
 
+This system makes use of role based permission to give some access to user and admin
+
+When a user or admin logs in, a unique access code is generated which gives access right to some routes. This makes it difficult for an unauthorized user to create, update or delete a product.
+
 ## Key Features
 
 User and Admin account creation
