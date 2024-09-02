@@ -20,7 +20,7 @@ export class AdminDto {
   email: string;
 
   @ApiProperty({
-    description: 'T check if the user is admin',
+    description: 'TO check if the user is admin',
     example: true,
   })
   is_admin: boolean;
