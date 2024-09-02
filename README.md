@@ -6,7 +6,7 @@ This is a simple e-commerce system that allows unauthenticated users to view app
 
 User and Admin account creation
 
-# User/Person Features
+### User/Person Features
 
     User logs in
     User create a product, which by default will be set to pending
@@ -14,7 +14,7 @@ User and Admin account creation
     User can delete a product
     User can see all the product that they created whether approved or not
 
-# Admin Features
+### Admin Features
 
     Admin logs in
     Admin can get all products
@@ -22,7 +22,7 @@ User and Admin account creation
     Admin can get all users
     Admin can ban and unban a user
 
-# Product Features
+### Product Features
 
     Unauthenticated user can see all approved products, but can't create a product
     A banned user can not login to the system
