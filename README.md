@@ -4,7 +4,7 @@ This is a simple e-commerce system that allows unauthenticated users to view app
 
 ## Key Features
 
-User and Admin authentication and authorization
+User and Admin account creation
 
 # User/Person Features
 
@@ -44,6 +44,8 @@ $ npm run migration:run
 ```
 
 ## Compile and run the project
+
+Connect to the db using the .env.example db data
 
 ```bash
 # development
