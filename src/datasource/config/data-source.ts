@@ -1,10 +1,7 @@
 import { DataSource } from 'typeorm';
-// import { Admin } from 'src/entity/admin.entity';
-// import { Person } from 'src/entity/person.entity';
-// import { Product } from 'src/entity/product.entity';
 import { config } from 'dotenv';
 
-config(); // Load environment variables
+config();
 
 export const AppDataSource = new DataSource({
   type: 'postgres',

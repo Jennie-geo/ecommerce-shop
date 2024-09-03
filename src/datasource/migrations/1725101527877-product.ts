@@ -2,7 +2,6 @@ import { MigrationInterface, QueryRunner } from 'typeorm';
 
 export class Product1725101527877 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
-    // Create the 'products' table with the 'persons_d' column
     await queryRunner.query(`
     CREATE TABLE "products" (
         "id" SERIAL PRIMARY KEY,
